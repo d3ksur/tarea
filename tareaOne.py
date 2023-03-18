@@ -1,5 +1,3 @@
-# Esto es del primer trabajo de programacion
-
 print("Hola Mundo")
 print(42)
 print(3.14)
@@ -24,5 +22,3 @@ es_hombre = False
 Esto es un comentario
 de múltiples líneas
 """
-
-# Esto es del segundo trabajo de programacion
