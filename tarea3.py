@@ -101,16 +101,27 @@ ha_visto_mas_de_3 = cantidad_shows > 3
 print("Has visto más de 3 shows: ", ha_visto_mas_de_3)
 
 #11
-cantidad_shows = int(input("¿Cuántos shows musicales has visto en el último año? "))
-ha_visto_mas_de_3 = cantidad_shows > 3
-print("Has visto más de 3 shows: ", ha_visto_mas_de_3)
-
-#12
 fecha = int(input("Ingrese una fecha en formato DDMMAAAA: "))
 dia = fecha // 1000000
 mes = (fecha // 10000) % 100
 anio = fecha % 10000
 print("La fecha ingresada es:", "{:02d} / {:02d} / {:04d}".format(dia, mes, anio))
+
+#12
+# Solicitar al usuario el ingreso de un número entero
+numero = int(input("Ingrese un número entero: "))
+
+# Determinar si el número es par o no
+if numero % 2 == 0:
+    es_par = True
+else:
+    es_par = False
+
+# Imprimir el valor de verdad
+if es_par:
+    print("El número es par.")
+else:
+    print("El número es impar.")
 
 #13
 cadena = input("Ingrese una cadena de texto: ")
